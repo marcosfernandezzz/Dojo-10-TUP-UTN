@@ -23,12 +23,12 @@ Analizar el algoritmo “Quicksort” dado en clases, indicando paso a paso qué
 
 ### Parte 2
 
-Ver el video de la coreografía que simula el ordenamiento de vectores y tomar nota de los pasos clave observados durante el proceso.
-Basándote en la coreografía, formalizar un algoritmo que represente la estrategia utilizada para ordenar los elementos del vector.
-Describir detalladamente cada paso del algoritmo, incluyendo las operaciones realizadas en cada etapa.
-Realizar un análisis comparativo entre el algoritmo formalizado y otros algoritmos de ordenamiento vistos (por ejemplo, burbuja y selección).
-Discutir las ventajas y desventajas del algoritmo propuesto en términos de tiempo de ejecución, número de comparaciones necesarias y complejidad en el peor caso.
-Presentar las conclusiones y reflexiones sobre la efectividad y eficiencia del algoritmo propuesto en relación con los objetivos de ordenamiento.
+- Ver el video de la coreografía que simula el ordenamiento de vectores y tomar nota de los pasos clave observados durante el proceso.
+- Basándote en la coreografía, formalizar un algoritmo que represente la estrategia utilizada para ordenar los elementos del vector.
+- Describir detalladamente cada paso del algoritmo, incluyendo las operaciones realizadas en cada etapa.
+- Realizar un análisis comparativo entre el algoritmo formalizado y otros algoritmos de ordenamiento vistos (por ejemplo, burbuja y selección).
+- Discutir las ventajas y desventajas del algoritmo propuesto en términos de tiempo de ejecución, número de comparaciones necesarias y complejidad en el peor caso.
+- Presentar las conclusiones y reflexiones sobre la efectividad y eficiencia del algoritmo propuesto en relación con los objetivos de ordenamiento.
 
 
 ## Codigo con ejemplos de los algoritmos Insert y Bubble
