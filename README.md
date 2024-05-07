@@ -13,7 +13,7 @@
 # Proyecto: Trabajo Práctico Ordenamiento
 
 ## Descripción
-Consigna: 
+### Consigna: 
 
 ### Parte 1
 Analizar el algoritmo “Quicksort” dado en clases, indicando paso a paso qué hace el algoritmo. ¿Se les ocurre alguna forma de implementar el algoritmo sin utilizar recursión? ¿Notan diferencias en cuanto a performance? ¿Cuáles?
