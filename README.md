@@ -17,24 +17,41 @@
 ## Descripción
 En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
 
-## Función principal
-Este programa mustra un ejemplo de como utilizar el menu
+## Codigo con ejemplos de los algoritmos Insert y Bubble
+Este codigo mustra un ejemplo de como utilizar estos algoritmos y un breve ejemplo de uso.
 
-(Breve del programa)
 
 ~~~ Python (lenguaje en el que esta escrito)
-    while True:
-      
-      opcion = int(input("1-Ingresar Datos\n2-Mostrar datos\n3-Salir\n"))
 
-      match opcion:
-        case 1:
-          print("ingrese datos: ")
-        case 2:
-          print("mostrando datos...")
-        case 3:
-          print("gracias por usar el programa!!!")
-          break
+def insert_sort(matriz):
+    for i in range(1, len(matriz)):
+        key = matriz[i]
+        j = i - 1
+        while j >= 0 and key < matriz[j]:
+            matriz[j + 1] = matriz[j]
+            j -= 1
+        matriz[j + 1] = key
+
+
+def bubble_sort(matriz):
+    n = len(matriz)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if matriz[j] > matriz[j + 1]:
+                matriz[j], matriz[j + 1] = matriz[j + 1], matriz[j]
+
+
+# Ejemplos de uso
+matriz = [64, 34, 25, 12, 22, 11, 90]
+print("Array original:", matriz)
+insert_sort(matriz)
+print("Después de Insertion Sort:", matriz)
+
+matriz2 = [23, 34, 89, 12, 77, 11, 90]
+print("Array original:", matriz)
+bubble_sort(matriz2)
+print("Después de Bubble Sort:", matriz2)
+
 ~~~
 
 ## :snake: Link al proyecto
